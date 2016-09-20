@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 Sep, 2016, 2:51:17 PM
+    Author     : shantanu
+*/
+
+body {
+    font-family: 'Lato',sans-serif;
+    background-color:#ffffff;
+}
+.navbar-brand{
+    padding:10px 10px !important; 
+}
+.well{
+    height:80px;     
+}
+.wellheader{
+    text-align: center !important;
+    margin:auto !important;
+    margin-right:20% !important; 
+    /*padding:10px 10px;*/
+    
+}
+#logo{
+    margin:-8px;
+}
+.tabdiv{
+   
+}
+.botlisttab th{
+    background: #f0f4f7;
+    color: #626262;
+    padding: 8px 15px;
+    font-size: 16px;
+    border: 1px solid rgba(175,175,175,0.2);
+    padding: 6px 15px 3px 15px;
+    border-collapse: collapse;
+   
+}
+.botlisttab tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    font-size: 18px;
+    border-collapse: collapse;
+}
+.userlisttab th{
+    background: #f0f4f7;
+    color: #626262;
+    padding: 8px 15px;
+    font-size: 16px;
+    border: 1px solid rgba(175,175,175,0.2);
+    padding: 6px 15px 3px 15px;
+    border-collapse: collapse;
+    margin-top: 5px;
+    margin-bottom:5px; 
+   
+}
+.userlisttab tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    font-size: 18px;
+    border-collapse: collapse;
+}
+.userlisttab td label{
+    
+}
+td.bot-desc{
+    background-color: #f8f8f8;
+    padding:5px;
+    color:#398cc3;
+}
+.left-align{
+    text-align: left;
+}
+.center-align{
+    text-align: center;
+}
+td.manage{
+    font-weight:400;
+    padding:5px;
+       
+}
+.convbtn{
+    margin-bottom: 5px ;
+    margin-top: 5px;
+}
+.daterange{
+   margin-bottom: 5px ;
+   margin-top: 5px;
+}
+.botlisttab label{
+    margin:5px;
+}
+.titlelabel{
+    font-weight: 600;
+    margin-left: 20%;
+    margin-right: 30%;
+    font-size: 24px;
+
+}

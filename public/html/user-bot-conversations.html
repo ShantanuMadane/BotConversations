@@ -1,0 +1,74 @@
+
+<html>
+    <head>
+        <title>Conversation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../bootstrap/css/AdminLTE.css" rel="stylesheet" type="text/css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/convstyle.css"/>
+         <link rel="stylesheet" type="text/css" href="../css/botstyle.css"/>
+    </head>
+    <body>
+        <div class="row">
+
+            <div class="well">
+                <div class="col-md-9">
+                <a class="navbar-brand"><img id="logo" src="../images/logo.png"></a>
+                <label class="titlelabel">Conversation</label> 
+                </div>
+                <div class="col-md-3">
+                    <button type="button" id="logout" class="btn btn-primary" >Logout</button>
+                </div>
+                     
+            </div>
+            
+            </div>
+        
+        <div class="container">
+            
+    <div class="row">
+        <div class="col-md-9 chatboxtab">
+            <div class="panel panel-primary">
+                <div class="panel-heading chatheader">
+                    <span class="glyphicon glyphicon-comment"></span> Chat
+                    <div class="btn-group pull-right">
+                        <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                            <span class="glyphicon glyphicon-chevron-down"></span>
+                        </button>
+<!--                        <ul class="dropdown-menu slidedown">
+                            <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-refresh">
+                            </span>Refresh</a></li>
+                            <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-ok-sign">
+                            </span>Available</a></li>
+                            <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-remove">
+                            </span>Busy</a></li>
+                            <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-time"></span>
+                                Away</a></li>
+                            <li class="divider"></li>
+                            <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-off"></span>
+                                Sign Out</a></li>
+                        </ul>-->
+                    </div>
+                </div>
+                <div class="panel-body chatconvtab">         
+                </div>
+<!--                <div class="panel-footer">
+                    <div class="input-group">
+                        <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-warning btn-sm" id="btn-chat">
+                                Send</button>
+                        </span>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../js/conversations.js"></script>
+    </body>
+</html>

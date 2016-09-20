@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bot Conversations</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+         <link href="bootstrap/css/AdminLTE.css" rel="stylesheet" type="text/css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+       <body>
+        <div class="form-box" id="login-box">
+            <div class="text-center">
+                <img src="./public/images/logo.png" alt="" title="SMS GupShup - Powered by Webaroo" style="margin-bottom: 10px">
+            </div>
+            <div class="header">Sign In</div>
+            <form  name="login-form" id="login-form"  class="login-container">
+                <div class="body bg-gray">
+                    <div class="form-group">
+                        <input type="text" name="apikey" class="form-control" id="apikey" placeholder="Enter API Key"/>
+                    </div>
+                     <p id="errmsg" class="hide" style=""></p> 
+                </div>
+                <div class="footer">                                                               
+                    <input type="button" id="login" value="Sign me in"  onclick="validate()" class="btn btn-primary btn-block" />  
+                </div>
+            </form>
+            <div id="alert"></div>
+        </div>
+        <script src="./public/js/checkLogin.js"></script>
+       
+    </body>
+</html>
